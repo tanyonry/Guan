@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Table Bahasa</title>
+
+<style>
+
+body{
+    font-family: Arial, sans-serif;
+    background:#f5f5f5;
+    display:flex;
+    justify-content:center;
+    padding:40px;
+}
+
+/* kertas */
+.kertas{
+    background:white;
+    padding:30px;
+    width:600px;
+}
+
+/* judul oval */
+.judul{
+    border:3px solid #707074;
+    border-radius:50px;
+    text-align:center;
+    padding:10px;
+    font-size:24px;
+    letter-spacing:4px;
+    color:#707074;
+    margin-bottom:20px;
+}
+
+/* tabel */
+table{
+    width:100%;
+    border-collapse:collapse;
+    border:3px solid #707074;
+}
+
+td{
+    border:1px solid #707074;
+    padding:20px;
+    vertical-align:top;
+    color:#707074;
+}
+
+/* tinggi baris kosong */
+.kosong{
+    height:70px;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="kertas">
+
+<div class="judul">BAHASA</div>
+
+<table>
+<tr>
+<td>
+普<br>
+pu
+</td>
+
+<td>
+Bahasa Mandarin
+</td>
+</tr>
+
+<tr>
+<td>
+大 小<br>
+ta xiau
+</td>
+
+<td>
+Besar kecil
+</td>
+</tr>
+
+<tr class="kosong">
+<td></td>
+<td></td>
+</tr>
+
+<tr class="kosong">
+<td></td>
+<td></td>
+</tr>
+
+</table>
+
+</div>
+
+</body>
+</html>
